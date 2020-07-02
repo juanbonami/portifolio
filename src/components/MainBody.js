@@ -6,7 +6,11 @@ export class MainBody extends Component {
     render() {
         return (
             <div style={{border: 'solid', }}>
-                <Grid celled='internally' centered columns={2}>
+                <Grid celled='internally' centered columns={1}>
+                    <h1>Juan Bonami</h1>
+                </Grid>
+
+                <Grid celled='internally' centered columns={1}>
                     <Grid.Column width={3}>
                         <Image circular src={profilepic} />
                     </Grid.Column>
