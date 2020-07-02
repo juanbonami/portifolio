@@ -12,6 +12,13 @@ export class Header extends Component {
     return (
       <Menu stackable>
 
+        <Menu.Item
+          name='about'
+          active={activeItem === 'about'}
+          onClick={this.handleItemClick}
+        >
+          About
+        </Menu.Item>
 
         
 
