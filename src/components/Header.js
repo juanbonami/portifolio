@@ -4,7 +4,7 @@ import { Menu } from 'semantic-ui-react'
 export class Header extends Component {
     state = {}
 
-  
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
   render() {
     
