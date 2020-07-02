@@ -20,7 +20,13 @@ export class Header extends Component {
           About
         </Menu.Item>
 
-        
+        <Menu.Item
+          name='project'
+          active={activeItem === 'project'}
+          onClick={this.handleItemClick}
+        >
+          Projects
+        </Menu.Item>
 
         
       </Menu>
