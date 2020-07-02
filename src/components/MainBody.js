@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import { Grid, Image } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import profilepic from '../images/yaboi.jpg';
-import { Header, Icon } from 'semantic-ui-react'
 
 export class MainBody extends Component {
     render() {
         return (
-            <div style={{border: 'solid', }}>
+            <div >
                 
                 <Image 
                     centered
