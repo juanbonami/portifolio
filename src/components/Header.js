@@ -28,7 +28,13 @@ export class Header extends Component {
           Projects
         </Menu.Item>
 
-        
+        <Menu.Item
+          name='contact'
+          active={activeItem === 'contact'}
+          onClick={this.handleItemClick}
+        >
+          Contact
+        </Menu.Item>
       </Menu>
     )
   }
