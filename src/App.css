@@ -5,4 +5,10 @@
 
 .font {
   font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+
+.fontTwo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 }
