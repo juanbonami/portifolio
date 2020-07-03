@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
+import { Link } from "react-router-dom";
 
 export class Header extends Component {
     state = {}
@@ -16,14 +17,18 @@ export class Header extends Component {
           name='about'
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/'
         >
           About
         </Menu.Item>
 
         <Menu.Item
-          name='project'
-          active={activeItem === 'project'}
+          name='projects'
+          active={activeItem === 'projects'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/'
         >
           Projects
         </Menu.Item>
@@ -32,6 +37,8 @@ export class Header extends Component {
           name='contact'
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/'
         >
           Contact
         </Menu.Item>
