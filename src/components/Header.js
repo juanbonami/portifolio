@@ -11,21 +11,21 @@ export class Header extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted stackable>
+      <Menu inverted>
 
         <Menu.Item
-          name='about'
-          active={activeItem === 'about'}
+          name='About'
+          active={activeItem === 'About'}
           onClick={this.handleItemClick}
           as={Link}
-          to='/about'
+          to='/'
         >
           About
         </Menu.Item>
 
         <Menu.Item
-          name='projects'
-          active={activeItem === 'projects'}
+          name='Projects'
+          active={activeItem === 'Projects'}
           onClick={this.handleItemClick}
           as={Link}
           to='/projects'
@@ -34,8 +34,8 @@ export class Header extends Component {
         </Menu.Item>
 
         <Menu.Item
-          name='contact'
-          active={activeItem === 'contact'}
+          name='Contact'
+          active={activeItem === 'Contact'}
           onClick={this.handleItemClick}
           as={Link}
           to='/contact'

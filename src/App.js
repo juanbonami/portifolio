@@ -15,13 +15,11 @@ function App() {
 
       <Router>
         <Header/>
-        <Route exact path="/about" component={MainBody} />
+        <Route exact path="/" component={MainBody} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} /> 
       </Router>
-
-      <Header/>
-      <MainBody/>
+      
     </div>
   );
 }
