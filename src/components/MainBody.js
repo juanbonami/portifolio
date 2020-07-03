@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Image } from 'semantic-ui-react'
+import { Grid, Image, Icon } from 'semantic-ui-react'
 import profilepic from '../images/yaboi.jpg';
 
 export class MainBody extends Component {
@@ -15,6 +15,12 @@ export class MainBody extends Component {
                                 size='medium'
                                 src={profilepic}
                             />
+                            <ul style={{listStyleType: 'none'}}>
+                                <br/>
+                                <li> <Icon circular name='mail' /> juanbonami@gmail.com</li>                              
+                                <li> <Icon circular name='github' /> <a href="https://github.com/juanbonami"> Github </a></li>
+                                <li> <Icon circular name='linkedin' /> <a href="https://www.linkedin.com/in/juan-bonami-261909128/">LinkedIn</a></li>
+                            </ul>
                         </Grid.Column>
                         <Grid.Column>
                             <h1 className="font">Hi, I'm Juan Bonami</h1>

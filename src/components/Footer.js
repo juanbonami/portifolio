@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
 
 export class Footer extends Component {
     render() {
