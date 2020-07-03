@@ -18,7 +18,7 @@ export class Header extends Component {
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
           as={Link}
-          to='/'
+          to='/about'
         >
           About
         </Menu.Item>
@@ -28,7 +28,7 @@ export class Header extends Component {
           active={activeItem === 'projects'}
           onClick={this.handleItemClick}
           as={Link}
-          to='/'
+          to='/projects'
         >
           Projects
         </Menu.Item>
@@ -38,7 +38,7 @@ export class Header extends Component {
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}
           as={Link}
-          to='/'
+          to='/contact'
         >
           Contact
         </Menu.Item>
