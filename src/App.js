@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import MainBody from './components/MainBody';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
 
       <Router>
-        <Header/>
+        <Navbar/>
         <Route exact path="/" component={MainBody} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} /> 

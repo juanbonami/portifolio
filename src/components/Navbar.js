@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 import { Link } from "react-router-dom";
 
-export class Header extends Component {
+export class Navbar extends Component {
     state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -47,4 +47,4 @@ export class Header extends Component {
   }
 }
 
-export default Header
+export default Navbar
