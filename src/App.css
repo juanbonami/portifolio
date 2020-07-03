@@ -12,3 +12,14 @@
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
+
+.footer {
+  padding-top: 50px;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+  
+}
