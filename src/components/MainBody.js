@@ -5,9 +5,9 @@ import profilepic from '../images/yaboi.jpg';
 export class MainBody extends Component {
     render() {
         return (
-            <div >
-                <Grid centered columns={2}>
-                    <Grid.Row centered columns={4}>
+            <div style={{paddingTop: 140}} >
+                <Grid centered columns={1}>
+                    <Grid.Row centered columns={3}>
                         <Grid.Column>
                             <Image 
                                 centered
