@@ -10,7 +10,7 @@ export class Header extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu stackable>
+      <Menu inverted stackable>
 
         <Menu.Item
           name='about'
